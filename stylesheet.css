@@ -1,0 +1,89 @@
+
+body{
+background-color: hsl(225, 100%, 94%);
+display: flex;
+justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.container{
+   font-family: 'Red Hat Display', sans-serif;
+     background: white ;
+    width: 380px;
+    height: 550px;
+    border-radius: 5%;
+    text-align: center; 
+  
+}
+.container h2{
+font-weight: 1800;
+text-align: center;
+}
+.container p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+}
+.info{
+    display:flex;
+    background-color:hsl(225, 100%, 98%);
+    max-width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:2em;
+    border-radius:15px;
+    padding:.5em;
+  }
+  .music{
+    margin-left:1em;
+    margin-top:1em;
+    margin-right: 1em;
+  }
+  .annu{
+    margin-left:.5em;
+    margin-right: 1em;
+  }
+  span{
+    display:flex;
+    flex-direction:column;
+  }
+  .price{
+   margin-top:0;
+   color:hsl(224, 23%, 55%);
+    
+  }
+  h3{
+    margin-bottom:0;
+    color:hsl(223, 47%, 23%);
+  }
+  .change{
+      margin-top: 1.5em;
+      margin-left: 2em;
+  }
+  .proceed{
+      display: flex;
+      background-color: hsl(245, 75%, 52%);
+      max-width:80%;
+      margin-left:auto;
+      margin-right:auto;
+      border-radius: 15px;
+      justify-content: center;
+      height: 50px;
+      align-items: center; 
+      color: white;
+    }
+    .cancel{
+        display: flex;
+        background-color: white;
+        max-width:80%;
+        margin-top: 0.5em;
+        margin-left:auto;
+        margin-right:auto;
+        border-radius: 15px;
+        justify-content: center;
+        height: 50px;
+        align-items: center; 
+        color: grey;
+      }
+  
